@@ -1,5 +1,5 @@
 header {
-  background-image: url('../img/fondo5.jpg');
+  background-image: url('../img/fondo/fondo0.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10,6 +10,11 @@ header {
   text-align: center;
   color: white;
 }
+  @font-face {
+      font-family: "Janda";
+      src: url("../font/JandaElegantHandwriting.ttf");
+    }
+
 
 section {
   padding: 100px 0;
@@ -28,24 +33,211 @@ section h3.section-subheading {
   margin-bottom: 75px;
 }
 section#acerca{
-
-  background-color: #222222;
-  background-image: url('../img/fondo/fondo5.png');
-  background-position: center;
+  background-image: url('../img/fondo/fondo5.jpg');
   background-repeat: no-repeat;
-
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
 }
 
+section#habilidades{
+  background-image: url('../img/fondo/fondo2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+section#portafolio{
+  background-color: rgb(220,3,54);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+section#contactos{
+  background-color: rgb(60,60,60);
+  color: white;
+}
+.subAcerca{
+    font-size: 1.5em;
+    text-align: right;
+  font-family: 'Dosis', sans-serif;
+  color: #ED3237;
+}
+
+.textAcerca{
+   font-size: 1.5em;
+    text-align: right;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  line-height: 40px;
+}
+
+.texto{
+   font-size: 1.3em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+
+}
 .logo{
   width: 100px;
 }
 .nombre{
   width: 500px;
 }
-.textAcerca{
-  color: white;
+.titAcerca{
+  border: 1px;
+  color: #ED3237;
+  border-radius: 0.5;
+   text-shadow: 2px 1px white;
+   font-size: 40px;
+}
+.bgGray{
+  background-color: rgba(17,21,24,0.9);
+  padding: 3%;
+  border-radius: 3%;
+}
+.bgRed{
+  background-color: rgba(157,8,11,0.5);
+  padding: 5%;
+  border-radius: 3%;
 }
 .fotoAcerca{
   width: 200px;
+
+}
+
+.six-sec-ease-in-out {
+  -webkit-transition: width 6s ease-in-out;
+  -moz-transition: width 6s ease-in-out;
+  -ms-transition: width 6s ease-in-out;
+  -o-transition: width 6s ease-in-out;
+  transition: width 6s ease-in-out;
+}
+
+
+.portfolioFilter {
+  padding: 15px 0;
+}
+
+.portfolioFilter a {
+  margin-right: 6px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.portfolioFilter a.current {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+.portfolioContainer{
+  left: 4%;
+  border-radius: 3px;
+}
+img {
+  margin: 5px;
+  max-width:100%;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.portafolioItem{
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+}
+.socialWrapper {
+  display: flex;
+  justify-content: center;
+  background: none;
+  width: 100%;
+}
+
+.fa {
+  color: #444;
+  transition: 0.5s;
+  margin-left: 8px;
+  display: block;
+}
+
+.fa-hover:hover {
+  color: #FD2142;
+}
+header#contactos{
+  background-color: black
+}
+
+footer#pie{
+  background-color: #ED3237;
+  color: white;
+}
+
+.cvDownload{
+  border-radius: 3%;
+  width: 250px;
+  text-align: center;
+  border: 2px  solid #FD2142;
+}
+
+.textSoy{
+  font-size: 3em;
+  font-family: 'Dosis', sans-serif;
+  color: #ED3237;
+}
+
+.m-10{
+  margin: 30px;
+}
+.iconAcerca{
+  font-size: 70px;
+  color: #ED3237;
+  display: inline-block;
 
 }
