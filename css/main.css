@@ -137,8 +137,11 @@ section#contactos{
 }
 
 .portfolioFilter a {
+  font-family: 'Dosis', sans-serif;
+  background-color: #FFDDE5;
   margin-right: 6px;
-  color: #666;
+  color: #DC0336;
+  font-weight: bold;
   text-decoration: none;
   border: 1px solid #ccc;
   padding: 4px 15px;
@@ -201,7 +204,7 @@ img {
 }
 
 .fa {
-  color: #444;
+  color: #FF516D;
   transition: 0.5s;
   margin-left: 8px;
   display: block;
