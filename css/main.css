@@ -10,6 +10,17 @@ header {
   text-align: center;
   color: white;
 }
+
+.tituloHeader{
+  font-family: 'Janda';
+  font-size: 10rem;
+  line-height: 10rem;
+    border-radius: 0.5;
+   text-shadow: 5px 1px #F4273A;
+}
+
+
+
   @font-face {
       font-family: "Janda";
       src: url("../font/JandaElegantHandwriting.ttf");
@@ -33,7 +44,7 @@ section h3.section-subheading {
   margin-bottom: 75px;
 }
 section#acerca{
-  background-image: url('../img/fondo/fondo5.jpg');
+  background-image: url('../img/fondo/fondo2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -229,7 +240,7 @@ header#contactos{
 .textSoy{
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
-  color: #ED3237;
+  color: #F4273A;
 }
 
 .m-10{

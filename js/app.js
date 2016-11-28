@@ -13,7 +13,7 @@ $(function() {
     }
   }
 });
-
+/*
  $('#acerca').vegas({
         slides: [
             { src: 'img/fondo/fondo1.jpg' },
@@ -24,9 +24,9 @@ $(function() {
      overlay:  'dist/vegas/overlays/07.png'
     });
 
+*/
 
-/*
-    $('body').vegas({
+    $('header').vegas({
         slides: [
             { src: 'img/fondo/fondo1.jpg' },
             { src: 'img/fondo/fondo2.jpg' },
@@ -34,7 +34,6 @@ $(function() {
             	video: {
                 src: [
                     'img/fondo/clip.mp4',
-
                 ],
                 loop: false,
                 mute: true
@@ -42,12 +41,11 @@ $(function() {
         }
         ],
     transition: 'fade',
-     overlay:  'dist/vegas/overlays/07.png'
+     overlay:  'dist/vegas/overlays/02.png'
     });
 
-*/
 $('.wodryRX').wodry({
-    animation: 'rotateY',
+    animation: 'rotateX',
     delay: 2000,
     animationDuration: 800
 });
