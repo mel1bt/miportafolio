@@ -1,3 +1,4 @@
+
 // PARA LA TRANSCION DEL FONDO 
 $(function() {
 
