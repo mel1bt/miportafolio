@@ -27,7 +27,7 @@ $(function() {
 
 */
 
-    $('header').vegas({
+    $('header2').vegas({
         slides: [
             { src: 'img/fondo/fondo1.jpg' },
             { src: 'img/fondo/fondo2.jpg' },

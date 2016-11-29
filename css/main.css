@@ -13,10 +13,10 @@ header {
 
 .tituloHeader{
   font-family: 'Janda';
-  font-size: 10rem;
-  line-height: 10rem;
+  font-size: 5em;
+  line-height: 0.6;
     border-radius: 0.5;
-   text-shadow: 5px 1px #F4273A;
+   text-shadow: 5px 1px #c91e51;
 }
 
 
@@ -70,7 +70,7 @@ section#habilidades{
 }
 
 section#portafolio{
-  background-color: rgb(220,3,54);
+  background-color: rgb(103, 1, 40);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -89,12 +89,12 @@ section#contactos{
     font-size: 1.5em;
     text-align: right;
   font-family: 'Dosis', sans-serif;
-  color: #ED3237;
+  color: #e24f83;
 }
 
 .textAcerca{
    font-size: 1.5em;
-    text-align: right;
+    text-align: justify;
   font-family: 'Dosis', sans-serif;
   color: white;
   line-height: 40px;
@@ -114,7 +114,7 @@ section#contactos{
 }
 .titAcerca{
   border: 1px;
-  color: #ED3237;
+  color: #e24f83;
   border-radius: 0.5;
    text-shadow: 2px 1px white;
    font-size: 40px;
@@ -215,7 +215,7 @@ img {
 }
 
 .fa {
-  color: #FF516D;
+  color: #e24f83;
   transition: 0.5s;
   margin-left: 8px;
   display: block;
@@ -240,7 +240,8 @@ header#contactos{
 .textSoy{
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
-  color: #F4273A;
+  color: white;
+  background-color: rgba(17,21,24,0.9);
 }
 
 .m-10{
@@ -249,12 +250,19 @@ header#contactos{
 
 .iconFormacion{
   font-size: 70px;
-  color: #ED3237;
+  color: #e24f83;
 }
 
 .iconAcerca{
   font-size: 36px !important;
-  color: #ED3237;
+  color: #e24f83;
   display: inline-block;
 
 }
+
+ .introape{
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 3.2em;
+      color: #c91e51;
+      line-height: 50px;
+      margin-bottom: 25px; }
