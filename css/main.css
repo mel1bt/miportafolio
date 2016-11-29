@@ -87,7 +87,7 @@ section#contactos{
 }
 .subAcerca{
     font-size: 1.5em;
-    text-align: right;
+    text-align: center;
   font-family: 'Dosis', sans-serif;
   color: #e24f83;
 }
@@ -233,8 +233,7 @@ header#contactos{
 }
 .cvDownload{
  
-  width: 250px;
-
+text-align: center;
 }
 
 .textSoy{

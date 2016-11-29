@@ -155,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
+    background-color: black;
     border: none; }
     .navbar-custom .navbar-brand {
       font-size: 2em;
