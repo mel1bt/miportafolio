@@ -89,7 +89,7 @@ section#contactos{
     font-size: 1.5em;
     text-align: center;
   font-family: 'Dosis', sans-serif;
-  color: #e24f83;
+  color: #ce3551;
 }
 
 .textAcerca{
@@ -114,7 +114,7 @@ section#contactos{
 }
 .titAcerca{
   border: 1px;
-  color: #e24f83;
+  color: #ce3551;
   border-radius: 0.5;
    text-shadow: 2px 1px white;
    font-size: 40px;
@@ -214,7 +214,7 @@ img {
 }
 
 .fa {
-  color: #e24f83;
+  color: #ce3551;
   transition: 0.5s;
   margin-left: 8px;
   display: block;
@@ -248,12 +248,12 @@ text-align: center;
 
 .iconFormacion{
   font-size: 70px;
-  color: #e24f83;
+  color: #ce3551;
 }
 
 .iconAcerca{
   font-size: 36px !important;
-  color: #e24f83;
+  color: #ce3551;
   display: inline-block;
 
 }
@@ -264,3 +264,10 @@ text-align: center;
       color: #c91e51;
       line-height: 50px;
       margin-bottom: 25px; }
+
+.white{
+  color: white;
+}
+.coral{
+ background-color: #ce3551;
+}
