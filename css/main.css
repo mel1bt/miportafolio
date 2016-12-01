@@ -102,6 +102,7 @@ section#contactos{
   font-family: 'Dosis', sans-serif;
   color: white;
   line-height: 40px;
+  padding: 25px;
 }
 
 .texto{
@@ -152,9 +153,9 @@ section#contactos{
 }
 
 .portfolioFilter a {
+  margin: 0.4em;
   font-family: 'Dosis', sans-serif;
   background-color: #FFDDE5;
-  margin-right: 6px;
   color: #DC0336;
   font-weight: bold;
   text-decoration: none;
@@ -206,9 +207,7 @@ img {
 }
 
 .portafolioItem{
-  width: 300px;
-  height: 150px;
-  margin: 5px;
+text-align: center;
 }
 .socialWrapper {
   display: flex;
@@ -317,4 +316,11 @@ text-align: center;
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+}
+
+.img-proy{
+  display: inline-block;
+  width: 15em;
+  height: 10em;
+  padding: 0.3em;
 }
