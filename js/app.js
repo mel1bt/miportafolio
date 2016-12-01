@@ -45,11 +45,6 @@ $(function() {
      overlay:  'dist/vegas/overlays/02.png'
     });
 
-$('.wodryRX').wodry({
-    animation: 'rotateX',
-    delay: 2000,
-    animationDuration: 800
-});
 
  $('.progress .progress-bar').progressbar({display_text: 'fill'});
 

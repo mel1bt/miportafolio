@@ -20,6 +20,9 @@ header {
    text-shadow: 5px 1px #ce3551;
 }
 
+.bg-black{
+  background-color: black;
+}
 
 
   @font-face {
