@@ -29,7 +29,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #aa1b3a; }
+  color: #ce3551; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -53,15 +53,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #681123; }
   .btn-primary:hover {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #a11a37; }
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #a11a37; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
       color: white;
@@ -88,15 +88,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 40px; }
   .btn-xl:focus, .btn-xl.focus {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #681123; }
   .btn-xl:hover {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #a11a37; }
   .btn-xl:active, .btn-xl.active, .open > .btn-xl.dropdown-toggle {
     color: white;
-    background-color: #aa1b3a;
+    background-color: #ce3551;
     border-color: #a11a37; }
     .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus, .open > .btn-xl.dropdown-toggle:hover, .open > .btn-xl.dropdown-toggle:focus, .open > .btn-xl.dropdown-toggle.focus {
       color: white;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ce3551;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
-      color: #aa1b3a; }
+      color: #ce3551; }
   .navbar-custom .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.98); }
   .navbar-custom .navbar-toggle {
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-custom .navbar-nav > .active > a:hover,
   .navbar-custom .navbar-nav > .active > a:focus {
     color: white;
-    background-color: #aa1b3a; }
+    background-color: #ce3551; }
 
 @media (min-width: 768px) {
   .navbar-custom {

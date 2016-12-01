@@ -9,6 +9,7 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  height: 100vh;
 }
 
 .tituloHeader{
@@ -16,7 +17,7 @@ header {
   font-size: 5em;
   line-height: 0.6;
     border-radius: 0.5;
-   text-shadow: 5px 1px #c91e51;
+   text-shadow: 5px 1px #ce3551;
 }
 
 
@@ -261,7 +262,7 @@ text-align: center;
  .introape{
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 3.2em;
-      color: #c91e51;
+      color: #ce3551;
       line-height: 50px;
       margin-bottom: 25px; }
 
@@ -270,4 +271,47 @@ text-align: center;
 }
 .coral{
  background-color: #ce3551;
+}
+
+#soy {
+  border-right: 1px solid;
+  display:inline-block;
+  padding-right:4px;
+  animation: 1s infinite blink;
+  font-size: 2em;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*.highlighted {
+  background:#ce3551;
+  color:#fff;
+  display:inline-block;
+}
+
+@keyframes blink {
+  0% {
+    border-color: rgba(0,0,0,0);
+  }
+  49.99% {
+    border-color: rgba(0,0,0,0);
+  }  
+  50% {
+    border-color: #ce3551;
+  }  
+  99.5% {
+    border-color: #ce3551;
+  }  
+}
+
+
+.m-btn{
+  margin-top: 2em;
+}
+
+.centro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
