@@ -61,7 +61,7 @@
                       <a class="page-scroll" href="#habilidades">Mis Habilidades</a>
                     </li>
                     <li data-element="portafolio" >
-                        <a class="page-scroll" href="#portafolio">Portaf olio</a>
+                        <a class="page-scroll" href="#portafolio">Portafolio</a>
                     </li>
                     <li data-element="contactos">
                       <a class="page-scroll" href="#contactos">Contáctame</a>
@@ -97,35 +97,22 @@
 
     <!-- Acerca -->
    <section id="acerca">
-  <div class="container">
-    <div class="row ">
-
-
-   
-
-        <div class="col-xs-12 col-md-6 col-lg-6">
-                   <div class="fotoAcerca box-outer">
-  <div class="main_box">
-
-    <div class="bar top "></div>
-    <div class="bar right delay"></div>
-    <div class="bar bottom delay"></div>
-    <div class="bar left "></div>
-     <img src="img/foto.jpg" class="text-center fotoAcerca" alt="">
-  </div>
-</div>
-
-        </div>
-      <div class="col-xs-12 col-md-6 col-lg-6 bgGray">
+  <div class="container bgGray">
+    <div class="row mt-1">
       <h2 class="text-center">Acerca de mi</h2>
-        
-        <h4 class="subAcerca">Futura Back End Developer</h4>
-        <h3 class="textAcerca">Soy Front End Developer Junior, egresada de la 5ta promoción de Laboratoria, estudiante 9no ciclo de Ingeniería Informática y técnica en computación e informática. Interés por la tecnología y el desarrollo web. Comprometida con capacidad analítica y habilidad para trabajar en equipos agile. Apasionada por nuevos desafíos y aprendizaje de nuevas tecnologías.
+      <em class="subAcerca">Futura Back End Developer</em>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-lg-6">
+        <img src="img/foto-lab.jpg" class="text-center fotoAcerca" alt="">
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-6 ">
+        <h3 class="text-center textAcerca">Soy Front End Developer Junior, egresada de la 5ta promoción de Laboratoria, estudiante 9no ciclo de Ingeniería Informática y técnica en computación e informática. Interés por la tecnología y el desarrollo web. Comprometida con capacidad analítica y habilidad para trabajar en equipos agile. Apasionada por nuevos desafíos y aprendizaje de nuevas tecnologías.
         </h3>
-        <div>
-          <i class="iconAcerca fa fa-code" aria-hidden="true"></i>
-          <i class="iconAcerca fa fa-users" aria-hidden="true"></i>
-          <i class="iconAcerca fa fa-thumbs-up" aria-hidden="true"></i>
+        <div class="iconos-acerca">
+          <i class="iconAcerca fa fa-code" aria-hidden="true"></i><em>Programación Web&nbsp&nbsp&nbsp</em>
+          <i class="iconAcerca fa fa-users" aria-hidden="true"></i><em>Equipo Ágile&nbsp&nbsp&nbsp</em>
+          <i class="iconAcerca fa fa-thumbs-up" aria-hidden="true"></i><em>Retos Nuevos</em>
         </div>
       </div>
     </div>
@@ -133,10 +120,13 @@
 </section> 
 
 <section id="habilidades">
-  <div class="container">
-   <div class="row bgGray">
-    <div class="col-xs-12 col-md-12 col-lg-12 ">
-      <h1 class="text-center titAcerca">Habilidades</h1>
+  <div class="container bgGray">
+    <div class="row">
+      <h1 class="text-center coralt">Habilidades</h1>
+    </div>
+   <div class="row">
+    <div class="text-center col-xs-12 col-md-6 col-lg-6 ">
+      
       <span class="text-center">HTML</span>
       <div class="progress">
         <div class="progress-bar six-sec-ease-in-out" role="progressbar" data-transitiongoal="85"></div>
@@ -153,9 +143,12 @@
       <div class="progress">
         <div class="progress-bar progress-bar-warning six-sec-ease-in-out" role="progressbar" data-transitiongoal="80"></div>
       </div>
-        </div>
-    <div class="hidden-xs col-sm-12 col-md-12 col-lg-12  ">
-      <h1 class="text-center titAcerca">Formación</h1>
+    </div>
+   
+      </div>
+
+       <div class="hidden-xs col-sm-12 col-md-6 col-lg-6  ">
+      <h1 class="text-center ">Formación</h1>
       <div class="row">
         
           <div class="col-lg-10 text-center">
@@ -166,6 +159,8 @@
             <i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
           </div>
         </div>
+      </div>
+
       <div class="row">
         
         <div class="col-lg-10 text-center">
@@ -224,9 +219,7 @@
     
       <div class="portfolioContainer">
         <div class="webGrid responsive api portafolioItem">
-          <a href="https://mel1bt.github.io/trello/"  target="_blank">
-          <img class="img-proy" src="img/portafolio/img1.png" alt="image">
-          </a>
+          <img class="img-proy" src="img/portafolio/img1.png" alt="image" data-toggle="modal" data-target="#project1">
         </div>
         <div class="webGrid portafolioItem">
           <a href="https://mel1bt.github.io/escuela/"  target="_blank">
@@ -278,9 +271,39 @@
   </div>
 </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+
+            <div class="row">
+            <div class="col-md-6">
+              <img class="img-responsive" src="img/portafolio/img1.png">
+            </div>
+            <div class="col-md-6">
+              Proyecto de Trello
+              Tecnologia: JavaScrip
+            </div>
+          </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <div class="row"></div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <section id="contactos" class="bg-light-gray">
   <div class="container">
-    <div class="row">
+    <div class="row">  
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Contáctame</h2>
         <h3 class="section-subheading text-muted">Si te interesa mi trabajo, las habilidades que tengo o las tecnologías que conozco. Contáctame. </h3>
