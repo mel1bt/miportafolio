@@ -14,18 +14,6 @@ $(function() {
     }
   }
 });
-/*
- $('#acerca').vegas({
-        slides: [
-            { src: 'img/fondo/fondo1.jpg' },
-            { src: 'img/fondo/fondo3.jpg' },
-        
-        ],
-    transition: 'fade',
-     overlay:  'dist/vegas/overlays/07.png'
-    });
-
-*/
 
  $('.progress .progress-bar').progressbar({display_text: 'fill'});
 

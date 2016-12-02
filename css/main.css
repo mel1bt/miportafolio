@@ -32,7 +32,7 @@ header {
 
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -61,7 +61,7 @@ section#acerca{
 }
 
 section#habilidades{
-  background-image: url('../img/fondo/fondo2.jpg');
+  background-image: url('../img/fondo/bnfondo.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -90,6 +90,7 @@ section#contactos{
   color: white;
 }
 .subAcerca{
+  margin-bottom: : 3em;
     font-size: 1.5em;
     text-align: center;
   font-family: 'Dosis', sans-serif;
@@ -98,11 +99,10 @@ section#contactos{
 
 .textAcerca{
    font-size: 1.5em;
-    text-align: justify;
   font-family: 'Dosis', sans-serif;
   color: white;
-  line-height: 40px;
-  padding: 25px;
+  line-height: 30px;
+
 }
 
 .texto{
@@ -117,13 +117,6 @@ section#contactos{
 .nombre{
   width: 500px;
 }
-.titAcerca{
-  border: 1px;
-  color: #ce3551;
-  border-radius: 0.5;
-   text-shadow: 2px 1px white;
-   font-size: 40px;
-}
 .bgGray{
   background-color: rgba(17,21,24,0.9);
   padding: 3%;
@@ -136,8 +129,8 @@ section#contactos{
 }
 .fotoAcerca{
   margin: 0;
-  width: 200px;
-
+  width: 35em;
+  border-radius: 2em;
 }
 
 .six-sec-ease-in-out {
@@ -275,6 +268,9 @@ text-align: center;
 .coral{
  background-color: #ce3551;
 }
+.coralt{
+ color: #ce3551;
+}
 
 #soy {
   border-right: 1px solid;
@@ -306,7 +302,6 @@ text-align: center;
   }  
 }
 
-
 .m-btn{
   margin-top: 2em;
 }
@@ -325,93 +320,10 @@ text-align: center;
   height: 10em;
   padding: 0.3em;
 }
+.mt-1{
+ margin-bottom: 1em;
+}
 
-
-.box-outer {
-  overflow: hidden;
-  margin: 50px auto;
-  width: 200px;
-  height: 200px;
-}
-.main_box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background: #f34c4c;
-  border: 5px solid #000;
-}
-.bar {
-  position: absolute;
-  width: 50px;
-  height: 5px;
-  background: #fff;
-  transition: all 1s linear;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-.bar.delay {
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-.top {
-  top: -5px;
-  left: -5px;
-}
-.right {
-  top: 18px;
-  right: -28px;
-  transform: rotate(90deg);
-}
-.bottom {
-  bottom: -5px;
-  left: -5px;
-}
-.left {
-  top: 18px;
-  left: -28px;
-  transform: rotate(90deg);
-}
- @-webkit-keyframes h-move {
- 0% {
-left: -5px;
-}
-100% {
-left: 200px;
-}
-}
- @keyframes h-move {
- 0% {
-left: -5px;
-}
-100% {
-left: 200px;
-}
-}
-.top, .bottom {
-  -webkit-animation-name: h-move;
-  animation-name: h-move;
-}
- @-webkit-keyframes v-move {
-0% {
-top: -5px;
-}
-100% {
-top:228px;
-}
-}
- @keyframes v-move {
- 0% {
-top: -5px;
-}
-100% {
-top:228px;
-}
-}
-.right, .left {
-  -webkit-animation-name: v-move;
-  animation-name: v-move;
+.iconos-acerca{
+  margin-top: 3em;
 }
