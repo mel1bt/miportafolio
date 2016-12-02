@@ -27,25 +27,6 @@ $(function() {
 
 */
 
-    $('header2').vegas({
-        slides: [
-            { src: 'img/fondo/fondo1.jpg' },
-            { src: 'img/fondo/fondo2.jpg' },
-            { src: 'img/fondo/fondo3.jpg', 
-            	video: {
-                src: [
-                    'img/fondo/clip.mp4',
-                ],
-                loop: false,
-                mute: true
-            }
-        }
-        ],
-    transition: 'fade',
-     overlay:  'dist/vegas/overlays/02.png'
-    });
-
-
  $('.progress .progress-bar').progressbar({display_text: 'fill'});
 
 
