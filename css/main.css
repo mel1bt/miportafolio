@@ -323,7 +323,31 @@ text-align: center;
 .mt-1{
  margin-bottom: 1em;
 }
-
+.mt-2{
+ margin-bottom: 2em;
+}
+.mtop-1{
+ margin-top: 3em;
+}
 .iconos-acerca{
   margin-top: 3em;
+}
+.centrar-hab{
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+}
+.text-hab{
+  position: relative;
+   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   margin-top: 20px;  
+}
+.brd-rnd{
+  border-radius: 2em;
+  border: 0.2em solid #ce3551;
+  padding: 0.5em;
+}
+.bgfooter{
+  clear: both;
+  background-color: black;
 }
