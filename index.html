@@ -1,461 +1,913 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-      <link rel="shortcut icon" href="img/code.ico">
-
+    <link rel="shortcut icon" href="img/code.ico">
     <title>Melissa Berrocal Tipte</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
-     <link rel="stylesheet" href="css/circle.css">
-
+    <link rel="stylesheet" href="css/circle.css">
     <link rel="stylesheet" href="css/main.css">
+  </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <body id="page-top" class="index">
 
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="bg-black navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="zsr-only"></span> Menu <i class="white fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Melissa B. T.</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li data-element="acerca" class="hidden">
-                      <a href="#page-top"></a>
-                    </li>
-                    <li data-element="acerca">
-                      <a class="page-scroll " href="#acerca">Acerca de mi</a>
-                    </li>
-                    <li data-element="habilidades">
-                      <a class="page-scroll" href="#habilidades">Mis Habilidades</a>
-                    </li>
-                    <li data-element="portafolio" >
-                        <a class="page-scroll" href="#portafolio">Portafolio</a>
-                    </li>
-                    <li data-element="contactos">
-                      <a class="page-scroll" href="#contactos">Contáctame</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <div class="container">
+        <div class="bg-black navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only"></span>Menu
+            <i class="white fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="#page-top">Melissa B. T.</a>
         </div>
-        <!-- /.container-fluid -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#acerca">Acerca de mi</a>
+            </li>
+            <li class="page-scroll">
+              <a  href="#habilidades">Mis Habilidades</a>
+            </li>
+            <li class="page-scroll" >
+                <a  href="#portafolio">Portafolio</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#contactos">Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <!-- Header -->
     <header>
-  <div id="top" class="container">
-  <div class="centro">
-    <div class="intro-text">
-      <div class="fontEncabezado text-center ">
-        <!--<img src="img/nombre.png" class="nombre" alt="">-->
+      <div id="top" class="container">
+        <div class="centro">
+          <div class="intro-text">
+            <div class="fontEncabezado text-center ">
               <p class="tituloHeader">Melissa </p>
               <p class="tituloHeader">&nbsp&nbsp&nbsp Berrocal </p>
-         </div>
-
-      <div >
-         
-          <p id="soy"></p>
-              
-      </div>
-        <a href="#acerca" class="coral m-btn page-scroll  btn btn-lg btn-danger"> Acerca de mi</a>
-    </div>
-  </div>
-  </div>
-</header>
-
-    <!-- Acerca -->
-   <section id="acerca">
-  <div class="container bgGray">
-    <div class="row mt-1">
-      <h2 class="text-center">Acerca de mi</h2>
-      <em class="subAcerca">Futura Back End Developer</em>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 col-lg-6">
-        <img src="img/foto-lab.jpg" class="text-center fotoAcerca" alt="">
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-6 ">
-        <h3 class="text-center textAcerca">Soy Front End Developer Junior, egresada de la 5ta promoción de Laboratoria, estudiante 9no ciclo de Ingeniería Informática y técnica en computación e informática. Interés por la tecnología y el desarrollo web. Comprometida con capacidad analítica y habilidad para trabajar en equipos agile. Apasionada por nuevos desafíos y aprendizaje de nuevas tecnologías.
-        </h3>
-        <div class="iconos-acerca">
-          <i class="iconAcerca fa fa-code" aria-hidden="true"></i><em>Programación Web&nbsp&nbsp&nbsp</em>
-          <i class="iconAcerca fa fa-users" aria-hidden="true"></i><em>Equipo Ágile&nbsp&nbsp&nbsp</em>
-          <i class="iconAcerca fa fa-thumbs-up" aria-hidden="true"></i><em>Retos Nuevos</em>
+            </div>
+            <div >
+              <p id="soy"></p>
+            </div>
+            <a href="#acerca" class="coral m-btn page-scroll  btn btn-lg btn-danger"> Acerca de mi</a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section> 
+    </header>
 
-<section id="habilidades">
-  <div class="container bgGray">
-    <div class="mt-1 row">
-      <h1 class="text-center coralt">Habilidades</h1>
-    </div>
-      <div class="row">
-    
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-      <div class="row">
-        <div class="centrar-hab c100 p85">
-          <span>85%</span>
-          <div class="slice">
-              <div class="bar"></div>
-              <div class="fill"></div>
+    <section id="acerca">
+      <div class="container bgGray">
+        <h2 class="text-center">Acerca de mi</h2>
+        <em class="subAcerca">Futura Back End Developer</em>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <img src="img/foto-lab.jpg" class="text-center fotoAcerca" alt="">
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6 ">
+          <h3 class="text-center textAcerca">Soy Front End Developer Junior, egresada de la 5ta promoción de Laboratoria, estudiante 9no ciclo de Ingeniería Informática y técnica en computación e informática. Interés por la tecnología y el desarrollo web. Comprometida con capacidad analítica y habilidad para trabajar en equipos agile. Apasionada por nuevos desafíos y aprendizaje de nuevas tecnologías.
+          </h3>
+          <div class="iconos-acerca">
+            <i class="iconAcerca fa fa-code" aria-hidden="true"></i><em>Programación Web&nbsp&nbsp&nbsp</em>
+            <i class="iconAcerca fa fa-users" aria-hidden="true"></i><em>Equipo Ágile&nbsp&nbsp&nbsp</em>
+            <i class="iconAcerca fa fa-thumbs-up" aria-hidden="true"></i><em>Retos Nuevos</em>
           </div>
+        </div>
       </div>
-    
-      </div>
-      <div class="row">
-        <p class="text-hab">HTML</p>
-      </div>
-      
-    </div>
-     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-      <div class="row">
-        <div class="centrar-hab c100 p70">
-          <span>70%</span>
-          <div class="slice">
-              <div class="bar"></div>
-              <div class="fill"></div>
+    </section> 
+
+    <section id="habilidades">
+      <div class="container bgGray">
+
+        <h1 class="text-center coralt">Habilidades</h1>
+
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="centrar-hab c100 p85">
+            <span>85%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
           </div>
-      </div>
-    
-      </div>
-      <div class="row">
-             <p class="text-hab">CSS</p>
-      </div>
-      
-    </div>
-     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-      <div class="row">
-        <div class="centrar-hab c100 p70">
-          <span>70%</span>
-          <div class="slice">
-              <div class="bar"></div>
-              <div class="fill"></div>
+          <p class="text-hab">HTML</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="centrar-hab c100 p70">
+            <span>70%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
           </div>
-      </div>
-    
-      </div>
-      <div class="row">
-        <p class="text-hab">JavaScript & Jquery</p>
-      </div>
-      
-    </div>
-     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-      <div class="row">
-       
+          <p class="text-hab">CSS</p>
+        </div>
+  
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="centrar-hab c100 p70">
+            <span>70%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+          </div>
+          <p class="text-hab">JavaScript </p>
+        </div>
+
+       <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
         <div class="centrar-hab c100 p85 ">
-          <span>85%</span>
-          <div class="slice">
-              <div class="bar"></div>
-              <div class="fill"></div>
-          </div>
-      </div>
-      </div>
-      <div class="row">
+            <span>85%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
         <p class="text-hab">Responsive Design</p>
       </div>
-      
-    </div>
 
-    </div>
-      <div class="mt-1 mtop-1 row">
       <h1 class="text-center coralt">Formación</h1>
-      </div>
-      <div class=" row">
-      <div class=" mt-1 row">
+
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <div class="">
-            <i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
-          </div>
+          <i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
           <strong class="coralt text-hab">Desarrollo Front End & Diseño Web</strong>
-            <p class="text-hab">Implementación de diseño adaptable. Páginas web responsive y el uso de referente a novedades CSS</p>
+          <p class="text-hab">Implementación de diseño adaptable. Páginas web responsive y el uso de referente a novedades CSS</p>
         </div>
+
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <div>
           <i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
-          </div>
           <strong class="coralt text-hab">Diseño Gráfico</strong>
-        <p class="text-hab">Conocimiento en Corel Draw Avanzado & Ilustrator CC. </p>
+          <p class="text-hab">Conocimiento en Corel Draw Avanzado </p><p> & Ilustrator CC. </p>
         </div>
-      </div>
-      <div class="mt-1 row">
+
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <div>
-            <i class="fa fa-database fa-2x" aria-hidden="true"></i>
-          </div>
-          <div>
-            <strong class="coralt text-hab">Base de Datos</strong>
-            <p class="text-hab">Conocimientos básicos de base de datos relacional. SQL Server, Oracle y Mysql. </p>
-          </div>
+          <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+          <strong class="coralt text-hab">Base de Datos</strong>
+          <p class="text-hab">Conocimientos básicos de base de datos relacional. SQL Server, Oracle y Mysql. </p>
         </div>
+
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <div>
-           <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-          </div>
-          <div>
-            <strong class="coralt text-hab">Estudiante de Ingeniería Informática</strong>
+          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+          <strong class="coralt text-hab">Estudiante de Ingeniería Informática</strong>
           <p class="text-hab">Conocimientos en informática y programación.</p>
-          </div>
-        </div>
         </div> 
-        <div class="mt-1 row">
+
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-             <div >
           <i class="fa fa-book fa-2x" aria-hidden="true"></i>
-        </div>
           <strong class="coralt text-hab">Formación Continua</strong>
           <p class="text-hab">El 90% de mi tiempo libre me dedico a seguir mejorando y aprendiendo. </p>
-      </div>
-     </div>
-      </div>
-      </div>
-</section>
+        </div>
 
-   <section id="portafolio">
-  <div class="container">
-  <div class="col-xs-12 col-md-12 col-md-12 col-lg-12">
-    <h1 class="text-center ">Portafolio</h1>
-      <div class="row">
-        <div class="portfolioFilter clearfix">
-          <a href="#" data-filter="*" class="current">Todos</a>
-          <a href="#" data-filter=".web">HTML5 & CSS</a>
-          <a href="#" data-filter=".js">Javascrit & Jquery</a>
-          <a href="#" data-filter=".sok">App Web</a>
+      </div> 
+    </section>
+
+     <section id="portafolio">
+    <div class="container">
+    <div class="">
+      <h1 class="text-center ">Mi Portafolio</h1>
+
+      <div class="portfolioFilter clearfix  row">
+        <a href="#" data-filter="*" class="current">Todos</a>
+        <a href="#" data-filter=".web">HTML5 & CSS</a>
+        <a href="#" data-filter=".js">Javascrit & Jquery</a>
+        <a href="#" data-filter=".proy">Proyectos</a>
+      </div>
+  
+      <div class="portfolioContainer" > 
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3">
+        <div class="web-escuela-danza web-categoria"  data-toggle="modal" data-target="#project1">
+          <p class="text-titulo-web">Escuela de Danza</p>
         </div>
       </div>
-    
-      <div class="portfolioContainer text-center">
 
-        <div class="m-1p web portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://mel1bt.github.io/escuela/"  target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/img2.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO ESCUELA DE DANZA</p>
-            <strong>Herramientas :</strong>
-            <p>HTML, CSS</p>
-          </div>
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project2">
+        <div class="web-ecomunidad web-categoria">
+          <p class="text-titulo-web">E-comunidad</p>
+        </div>
       </div>
 
-
-        <div class="m-1p js portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://mel1bt.github.io/trello/"  target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/img1.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO TRELLO</p>
-            <strong>Herramientas :</strong>
-            <p>HTML, CSS, Bootstrap, Javascrip</p>
-          </div>
-      </div>
-     
-     <div class="m-1p js portafolioItem bgPort col-md-3 col-lg-4">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://mel1bt.github.io/lyft/"  target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/img3.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO LYFT</p>
-            <strong>Herramientas :</strong>
-            <p>HTML, CSS, Bootstrap, JavaScript</p>
-          </div>
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project3">
+        <div class="web-cinema web-categoria">
+          <p class="text-titulo-web">Cinemalayout</p>
+        </div>
       </div>
 
-      <div class="m-1p web portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://spectrecode.github.io/la-republica/"  target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/img4.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO LA REPÚBLICA</p>
-            <strong>Herramientas: </strong>
-            <p>HTML, CSS, Bootstrap</p>
-          </div>
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project4">
+        <div class="web-spring web-categoria">
+          <p class="text-titulo-web">Spring Came</p>
+        </div>
       </div>
 
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project5">
+        <div class="web-users web-categoria">
+          <p class="text-titulo-web">Users Testing 360°</p>
+        </div>
+      </div>
+
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project6">
+        <div class="web-pretty web-categoria">
+          <p class="text-titulo-web">Maquetación Prettify</p>
+        </div>
+      </div>
+
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project7">
+        <div class="web-katy web-categoria">
+          <p class="text-titulo-web">Portafolio Katy</p>
+        </div>
+      </div>
+
+      <div class="web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project8">
+        <div class="web-republica web-categoria">
+          <p class="text-titulo-web">La República</p>
+        </div>
+      </div>
+
+      <div class="js col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project9">
+        <div class="web-mesale web-categoria">
+          <p class="text-titulo-web">MESALE</p>
+        </div>
+      </div>
+
+      <div class="js col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project10">
+        <div class="web-whatsap web-categoria">
+          <p class="text-titulo-web">Chat Whatsap</p>
+        </div>
+      </div>
+
+      <div class="js col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project11">
+        <div class="web-lyft web-categoria">
+          <p class="text-titulo-web">LYFT</p>
+        </div>
+      </div>
+
+      <div class="js col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project12">
+        <div class="web-trello web-categoria">
+          <p class="text-titulo-web">Trello</p>
+        </div>
+      </div>
+
+      <div class="js proy col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project13">
+        <div class="web-soundrock web-categoria">
+          <p class="text-titulo-web">SoundRock</p>
+        </div>
+      </div>
+
+      <div class="js col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project14">
+        <div class="web-swapi web-categoria">
+          <p class="text-titulo-web">Swapi</p>
+        </div>
+      </div>
+
+      <div class="js proy col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project15">
+        <div class="web-techhouse web-categoria">
+          <p class="text-titulo-web">Tech House</p>
+        </div>
+      </div>
+
+      <div class="proy web col-xs-12 col-sm-6  col-md-3 col-lg-3" data-toggle="modal" data-target="#project15">
+        <div class="web-arcoiris web-categoria">
+          <p class="text-titulo-web">Grafica Arco Iris</p>
+        </div>
+      </div>
       
-        <div class="m-1p js portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://lezmit.github.io/mesale/" target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/me-sale.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO ME SALE</p>
-            <strong>Herramientas: </strong>
-            <p>HTML, CSS, Bootstrap, JavaScript</p>
-          </div>
-        </div>
-
-        <div class="m-1p js web portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://lizruelas.github.io/soundrock" target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/sound-rock.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO SOUND ROCK</p>
-            <strong>Herramientas: </strong>
-            <p>HTML, CSS, Bootstrap, JavaScript, API´S</p>
-          </div>
-        </div>
-
-        <div class="m-1p sok js portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://dashboard.heroku.com/apps/techhouse" target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/tech-house.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO TECH HOUSE</p>
-            <strong>Herramientas: </strong>
-            <p>HTML, CSS, JavaScript, API´S, SOCKET.IO</p>
-          </div>
-        </div>
-
-        <div class="m-1p web portafolioItem bgPort col-md-3 col-lg-4 ">
-          <div class="col-xs-6 col-md-12  col-lg-12 ">
-          <a href="https://mel1bt.github.io/grid360/" target="_blank">
-          <img class="img-responsive img-proy" src="img/portafolio/user-testing.png" alt="image">
-          </a>
-          </div>
-          <div class="col-xs-6  col-md-12  col-lg-12">
-            <p class="text-hab">PROYECTO USER TESTING</p>
-            <strong>Herramientas: </strong>
-            <p>HTML, CSS, GRID</p>
-          </div>
-        </div>
-
-        </div>
-
-
+      </div>
     </div>
-    </div>
-  </div>
-</section>
-    
-    <!-- Modal -->
-    <div class="portfolio-modal modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
+  </section>
+      
+  <!-- Modal -->
+  <div class="portfolio-modal modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <section id="contactos" class="bg-light-gray">
-  <div class="container">
-    <div class="row">  
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Contáctame</h2>
-        <h3 class="section-subheading text-muted">Si te interesa mi trabajo, las habilidades que tengo o las tecnologías que conozco. Contáctame. </h3>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-escuela-danza.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Escuela de Danza</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/escuela"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/escuela/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  <div class="row">
-      <div class="col-lg-12 text-center">
-        <div class="texto  text-center socialWrapper">
-          <a href="https://pe.linkedin.com/in/melissa-berrocal" target="_blank"><i class="fa fa-linkedin-square fa-4x fa-hover"></i></a>
-          <a href="https://twitter.com/mel1bt" target="_blank"><i class="fa fa-twitter-square fa-4x fa-hover"></i></a>
-          <a href="https://plus.google.com/115697474415819178334" target="_blank"><i class="fa fa-google-plus-square fa-4x fa-hover"></i></a>
-          <a href="https://github.com/mel1bt" target="_blank"><i class="fa fa-github-square fa-4x fa-hover"></i></a>
-      </div>
-      <div class="mtop-1 col-lg-12 text-center">
-        <button onclick="window.location.href='doc/cv_berrocal.pdf'" type="submit"  class="coral btn btn-lg btn-danger"> <i class=" white fa fa-download fa-2 x" aria-hidden="true">Ver mi CV</i>
-          </button>
+  </div>
 
+  <div class="portfolio-modal modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-ecomunidad.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>E-COMUNIDAD</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/ecomunidad"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/ecomunidad/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
+  <div class="portfolio-modal modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                  <img class="img-responsive img-centered" src="img/portafolio/wc-cinema.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>CINEMA</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/cinemalayout"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/cinemalayout/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
-</section>
-<footer class="white bgfooter clearfix">
-  <div class="col-xs-12 col-md-12 col-md-6 col-lg-6">
-    <h5 class="text-center" >Melissa Berrocal Tipte Copyright © 2016 </h5>
-  </div>
-  <div class="col-xs-12 col-md-12 col-md-6 col-lg-6">
-    <h5 class="text-center">Todos los Derechos Reservados</h5>
-  </div>
-</footer> 
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-   <script src="https://use.fontawesome.com/335bff5a92.js"></script>
-<script  src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script type="text/javascript" src="dist/vegas/vegas.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-progressbar.js"></script>
-<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-<script type="text/javascript" src="js/letra.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-</body>
+  <div class="portfolio-modal modal fade" id="project4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-spring.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Spring Came</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/blog"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/blog/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-user-testing.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>User Testing 360°</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/grid360"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/grid360/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-prettify.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Maquetación Prettify</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/prettify"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/prettify/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-portafolio-katy.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Maquetación Prettify</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/portafolio"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/portafolio/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-la-republica.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>La Republica</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/la-republica/"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/la-republica/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-mesale.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>MESALE</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/Lezmit/mesale"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://lezmit.github.io/mesale/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-mesale.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Chat Whatsap</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/whatsap"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/whatsap/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-lyft.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>LYFT</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/whatsap"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/whatsap/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-trello.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Trello</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/trello"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="http://mel1bt.github.io/trello"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-soundrock.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Trello</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/LizRuelas/soundrock"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://lizruelas.github.io/soundrock/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-soundrock.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Swapi</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/swapi"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://mel1bt.github.io/swapi/public/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-techhouse.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Tech House</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/techhouse"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="https://techhouse1.herokuapp.com/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="project16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <div class="col-lg-5">
+                   <img class="img-responsive img-centered" src="img/portafolio/wc-arcoiris.png"" alt="">
+                </div>
+                <div class="col-lg-7">
+                  <h2>Grafica Arco Iris</h2>
+                  <i class="  fa fa-chrome fa-2 x" aria-hidden="true"></i>
+                  <a href="https://github.com/mel1bt/arcoiris"  target="_blank" >Ver Código</a>
+                  <i class=" fa fa-code fa-2 x" aria-hidden="true"></i>
+                  <a href="http://www.graficarcoiris.com/"  target="_blank" >Ver Página</a>
+                  <p class="item-intro text-muted">Proyecto realizado en equipo bajo la metodologia agil SCRUM. </p>
+                  <ul class="list-inline">
+                    <li>Tecnología: HTML, CSS</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <section id="contactos" class="bg-light-gray">
+    <div class="container">
+      <div class="row">  
+        <div class="text-center">
+          <h2 class="section-heading">Contáctame</h2>
+          <h3 class="section-subheading text-muted">Si te interesa mi trabajo, las habilidades que tengo o las tecnologías que conozco. Contáctame. </h3>
+          <div class="texto  text-center socialWrapper">
+            <a href="https://pe.linkedin.com/in/melissa-berrocal" target="_blank"><i class="fa fa-linkedin-square fa-4x fa-hover"></i></a>
+            <a href="https://twitter.com/mel1bt" target="_blank"><i class="fa fa-twitter-square fa-4x fa-hover"></i></a>
+            <a href="https://plus.google.com/115697474415819178334" target="_blank"><i class="fa fa-google-plus-square fa-4x fa-hover"></i></a>
+            <a href="https://github.com/mel1bt" target="_blank"><i class="fa fa-github-square fa-4x fa-hover"></i></a>
+          </div>
+          <div class="mtop-1 col-lg-12 text-center">
+            <button onclick="window.location.href='doc/cv_berrocal.pdf'" type="submit"  class="coral btn btn-lg btn-danger"> <i class=" white fa fa-download fa-2 x" aria-hidden="true">Ver mi CV</i>
+              </button>
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="white bgfooter clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-md-6 col-lg-6">
+          <h5 class="text-center" >Melissa Berrocal Tipte Copyright © 2016 </h5>
+        </div>
+        <div class="col-xs-12 col-md-12 col-md-6 col-lg-6">
+          <h5 class="text-center">Todos los Derechos Reservados</h5>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/335bff5a92.js"></script>
+  <script  src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="dist/vegas/vegas.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-progressbar.js"></script>
+  <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/letra.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
 
 </html>

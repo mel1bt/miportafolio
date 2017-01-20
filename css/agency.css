@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #eeeeee; }
 
 .bg-darkest-gray {
-  background-color: #222222; }
+  background-color:  rgb(0,0,0); }
 
 .btn-primary {
   color: white;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white; }
 
 .navbar-custom {
-  background-color: #222222;
+  background-color: rgb(0,0,0);
   border-color: transparent; }
   .navbar-custom .navbar-brand {
     color: #ce3551;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 3px; } }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color:  rgb(0,0,0);
     padding: 10px 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
@@ -437,7 +437,7 @@ aside.clients img {
   margin: 50px auto; }
 
 section#contact {
-  background-color: #222222;
+  background-color:  rgb(0,0,0);
   background-image: url("../img/map-image.png");
   background-position: center;
   background-repeat: no-repeat; }
@@ -499,7 +499,7 @@ ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
     display: block;
-    background-color: #222222;
+    background-color:  rgb(0,0,0);
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -561,7 +561,7 @@ ul.social-buttons {
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #222222;
+    background-color:  rgb(0,0,0);
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     /* IE 9 */
@@ -571,7 +571,7 @@ ul.social-buttons {
     .portfolio-modal .close-modal .lr .rl {
       height: 75px;
       width: 1px;
-      background-color: #222222;
+      background-color:  rgb(0,0,0);
       transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       /* IE 9 */

@@ -141,7 +141,6 @@ section#contactos{
   transition: width 6s ease-in-out;
 }
 
-
 .portfolioFilter {
   padding: 15px 0;
 }
@@ -200,9 +199,8 @@ img {
   transition-property: transform, opacity;
 }
 
-.portafolioItem{
 
-}
+
 .socialWrapper {
   display: flex;
   justify-content: center;
@@ -361,14 +359,91 @@ text-align: center;
 }
 
 .bgPort{
-  background-color: rgba(17,21,24,0.3);
   padding:  2%;
   border-radius: 3%;
 }
 .m-1p{
   margin: 1em;
-<<<<<<< HEAD
+}
+
+.web-categoria {
+  position: relative;
+  background-size:  cover;
+  margin-bottom: 2em;
+  height: 10em;
+}
+
+.text-titulo-web{
+  position: absolute;
+  padding: 3px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.85);
+  color: white;
+  left: 0;
+  bottom: 0;
   
-=======
->>>>>>> 9b6cb421b3187bc1389bfd9a8d6aa4fe8f8dc490
+}
+
+.web-escuela-danza {
+    background-image: url("../img/portafolio/wc-escuela-danza.png");
+}
+
+.web-ecomunidad {
+    background-image: url("../img/portafolio/wc-ecomunidad.png");
+}
+
+.web-cinema {
+    background-image: url("../img/portafolio/wc-cinema.png");
+}
+
+.web-spring{
+    background-image: url("../img/portafolio/wc-spring.png");
+}
+
+.web-users{
+    background-image: url("../img/portafolio/wc-user-testing.png");
+}
+
+.web-pretty{
+    background-image: url("../img/portafolio/wc-prettify.png");
+}
+
+.web-katy{
+    background-image: url("../img/portafolio/wc-portafolio-katy.png");
+}
+
+.web-republica{
+    background-image: url("../img/portafolio/wc-la-republica.png");
+}
+
+.web-mesale{
+    background-image: url("../img/portafolio/wc-mesale.png");
+}
+
+.web-whatsap{
+    background-image: url("../img/portafolio/wc-whatsap.png");
+}
+
+.web-lyft{
+    background-image: url("../img/portafolio/wc-lyft.png");
+}
+
+.web-trello{
+    background-image: url("../img/portafolio/wc-trello.png");
+}
+
+.web-soundrock {
+    background-image: url("../img/portafolio/wc-soundrock.png");
+}
+
+.web-swapi {
+    background-image: url("../img/portafolio/wc-swapi.png");
+}
+
+.web-techhouse{
+    background-image: url("../img/portafolio/wc-techhouse1.png");
+}
+
+.web-arcoiris{
+    background-image: url("../img/portafolio/wc-arcoiris.png");
 }
